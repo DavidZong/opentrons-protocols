@@ -13,7 +13,7 @@ metadata = {
 def run(protocol: protocol_api.ProtocolContext):
 
     numtubes = 24 # leave at 24 until last round
-    round = 1 # increase to access further wells
+    round = 0 # increase to access further wells (starts at 0)
 
 
     adjustment = round * 24
